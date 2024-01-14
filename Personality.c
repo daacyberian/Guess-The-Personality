@@ -167,7 +167,9 @@ void nawaz_sharif(int ch,int count)
 																														case 'D':
 																														case 'd':
 																															printf("\nYour character is the one and only nawaz shariff!\n");
-																															printf("\n\tna sadiq hu na Ameen hu \n\tme krapshan ki masheen hu");
+																															printf("\n\tna sadiq hu na Ameen hu \n\tme krapshan ki masheen hu\n");
+																															system("pause");
+																															exit(0);
 																														}
 																													default: // Nawaz Sharif Q15
 																														break;
@@ -357,6 +359,8 @@ void maryam(char ch,int count)
                                                                                                                 case 'd': 
                                                                                                                     printf("You are thinking about maryam nawaz!\n"); 
                                                                                                                     printf("\n\tye bhool hain gulaab k koi asla to nhi\n\tPF mai backlog lage koi masla to nhi \n"); 
+																													system("pause");
+																													exit(0);
                                                                                                             }                                        
                                                                                                         default: // maryam nawaz Q14
                                                                                                         break;
@@ -567,7 +571,9 @@ void Altaf(char ch , int count)
 															case 'N':
 															case 'n':
 																printf("\nYour character is Altaf Hussain!\n");
-																printf("\nVote for Miss Samia Masood Awan  \nWarnaa bori tayyaar");
+																printf("\nVote for Miss Samia Masood Awan  \nWarnaa bori tayyaar\n");
+																system("pause");
+																exit(0);
 															}
 														default:
 															break; // Q13
@@ -709,6 +715,8 @@ void Benazir(char ch,int count)
 																			case 'D':
 																			case 'd':	
 																				printf("\nYour character is the 1st women PM of Pakistan Benzair Bhutto!\n");
+																				system("pause");
+																				exit(0);
 																		}
 																	default: // benazir bhutto Q10
 																		break;						
@@ -901,7 +909,9 @@ void Bilawal(char ch,int count)
 																															case 'D':
 																															case 'd':
 																																printf("\nYour character is Bilawal Bhutto!\n");
-																																printf("\ntum to aik kanputli (statue) ho\ntumhari doren to PF hilaa raha hai");
+																																printf("\ntum to aik kanputli (statue) ho\ntumhari doren to PF hilaa raha hai\n");
+																																system("pause");
+																																exit(0);
 																														}
 																													default://bilawal bhutto Q16
 																														break;
@@ -1054,7 +1064,9 @@ void firdous(char ch , int count)
 														case 'D':
 														case 'd':
 															printf("\nYour character is firdous ashiq awan!\n");
-															printf("\ntum to aik kanputli (statue) ho\ntumhari doren to PF hilaa raha hai6");
+															printf("\ntum to aik kanputli (statue) ho\ntumhari doren to PF hilaa raha hai\n");
+															system("pause");
+															exit(0);
 														}
 													default: // firdous ashiq Q10
 														break;
@@ -1272,7 +1284,9 @@ void imran_khan(char ch,int count)
                                                                 case 'd':
                                                                     printf("You are thinking about imran khan!\n");                                        
                                                                     printf("\n\tHame to pf ne loota\n\tfit mai kahan dam tha\n\tGPA bhi wahan giri\n\tjahan AP mai number kam thay\n");                                        
-                                                                default:
+                                                                 	system("pause");
+																	exit(0);
+																default:
                                                                 break;
                                                                 }                                        
                                                             default: // imran khan Q16
@@ -1512,6 +1526,8 @@ void shahbaz(char ch , int count)
 																	case 'd':
 																		printf("\nYour character is Shahbaz Sharif!\n");
 																		printf("\n Mei Programming Prhne nhi aya \nlekin CS k lye Majboori hei\n");
+																		system("pause");
+																		exit(0);
 																	}
 																default:
 																	break;
@@ -1689,7 +1705,9 @@ void sheikh_rasheed(char ch,int count)
                                                     case 'D':
                                                     case 'd':
                                                         printf("\nYou are thinking about sheikh rasheed\n");
-                                                        printf("\n\tSheikhu Didnt choose thug life ,\n\t thug life choose him");                                        
+                                                        printf("\n\tSheikhu Didnt choose thug life ,\n\t thug life choose him");
+														system("pause");
+														exit(0);                                        
                                                     default:
                                                     break;
                                                     }                                        

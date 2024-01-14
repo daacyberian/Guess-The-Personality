@@ -1,4 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <Windows.h>
+#include <mmsystem.h>
+#include <stdio.h>
 #include "Title.c"
 #include "Personality.c"
 
@@ -12,7 +16,6 @@ void Start_the_Game() {
     
     // Read the user's input
     scanf(" %c", &ch);
-
     switch(ch) {
         case 'Y':
         case 'y':
@@ -186,6 +189,8 @@ void Start_the_Game() {
 																																		        case 'y': // Nawaz Sharif Q15
 																																                case 'D':
 																																                case 'd':
+																																				case 'N':
+																																				case 'n':
 																																		        	printf("\n\tQuestion no %d",count);
 																																		            printf("\nIs your character from GO NAWAZ GO era?\n");
 																																		            printf("\t Option: ");
@@ -197,8 +202,12 @@ void Start_the_Game() {
 																																					    case 'D':
 																																						case 'd':
 																																		                	printf("\nYour character is the one and only nawaz shariff!\n");
-																																		                	printf("\n\tna sadiq hu na Ameen hu \n\tme krapshan ki masheen hu");
-																						            														}
+																																		                	printf("\n\tna sadiq hu na Ameen hu \n\tme krapshan ki masheen hu\n");
+																																							PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\nawaz.wav"),NULL,SND_ASYNC);
+																																							system("pause");
+																																							exit(0);
+																						            														break;
+																																							}
 																																				default: // Nawaz Sharif Q15
 																																					break;  	
 																															                }		  	
@@ -274,6 +283,7 @@ void Start_the_Game() {
             // ...
             break;
     }
+	exit(0);
 }
 
 int main() {
@@ -281,8 +291,10 @@ int main() {
 	Title ();
 	Title2 ();
 	Title3 ();
+	border();
 	Disclaimer;
 	Rules ();
+	PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\akinator_theme (1).wav"),NULL,SND_ASYNC);
     Start_the_Game();
     return 0;
 }
