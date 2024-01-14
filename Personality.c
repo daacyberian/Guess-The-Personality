@@ -1192,7 +1192,7 @@ void imran_khan(char ch,int count)
 							case 'n':
 							case 'Y':
 							case 'y':
-
+							PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\ghabrana_nhi.wav"),NULL,SND_ASYNC);
 							printf("apne gabrana nhi hai.\n");
 							printf("\n");			
                                 printf("\n\tQuestion no %d\n",count); // imran khan Q8
@@ -1253,12 +1253,13 @@ void imran_khan(char ch,int count)
                                                     switch(ch) {
                                                     case 'Y': 
                                                     case 'y':
-													printf("apne gabrana nhi hai.\n");
-													break;
-                                                    case 'D':
-                                                    case 'd':
 													case 'N':
 													case 'n':
+													case 'D':
+													case 'd':
+													PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\ghabrana_nhi.wav"),NULL,SND_ASYNC);
+													printf("apne gabrana nhi hai.\n");
+													printf("\n");
                                                         printf("\n\tQuestion no %d\n",count); // imran khan Q14
                                                         printf("\napne gabrana nhi hai\n");
                                                         printf("Is your character famous for saying Absolutely not.\n");
