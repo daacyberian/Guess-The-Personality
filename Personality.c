@@ -572,6 +572,7 @@ void Altaf(char ch , int count)
 															case 'n':
 																printf("\nYour character is Altaf Hussain!\n");
 																printf("\nVote for Miss Samia Masood Awan  \nWarnaa bori tayyaar\n");
+																PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\altaf.wav"),NULL,SND_ASYNC);
 																system("pause");
 																exit(0);
 															}
@@ -910,6 +911,7 @@ void Bilawal(char ch,int count)
 																															case 'd':
 																																printf("\nYour character is Bilawal Bhutto!\n");
 																																printf("\ntum to aik kanputli (statue) ho\ntumhari doren to PF hilaa raha hai\n");
+																																PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\bilawal.wav"),NULL,SND_ASYNC);
 																																system("pause");
 																																exit(0);
 																														}
@@ -1284,7 +1286,8 @@ void imran_khan(char ch,int count)
                                                                 case 'd':
                                                                     printf("You are thinking about imran khan!\n");                                        
                                                                     printf("\n\tHame to pf ne loota\n\tfit mai kahan dam tha\n\tGPA bhi wahan giri\n\tjahan AP mai number kam thay\n");                                        
-                                                                 	system("pause");
+																	PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\imran.wav"),NULL,SND_ASYNC);
+																	system("pause");
 																	exit(0);
 																default:
                                                                 break;
@@ -1526,6 +1529,7 @@ void shahbaz(char ch , int count)
 																	case 'd':
 																		printf("\nYour character is Shahbaz Sharif!\n");
 																		printf("\n Mei Programming Prhne nhi aya \nlekin CS k lye Majboori hei\n");
+																		PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\showbaz.wav"),NULL,SND_ASYNC);
 																		system("pause");
 																		exit(0);
 																	}
