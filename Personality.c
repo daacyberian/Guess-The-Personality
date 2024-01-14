@@ -1253,8 +1253,11 @@ void imran_khan(char ch,int count)
                                                     switch(ch) {
                                                     case 'Y': 
                                                     case 'y':
+													printf("apne gabrana nhi hai.\n");
                                                     case 'D':
                                                     case 'd':
+													case 'N':
+													case 'n':
                                                         printf("\n\tQuestion no %d\n",count); // imran khan Q14
                                                         printf("\napne gabrana nhi hai\n");
                                                         printf("Is your character famous for saying Absolutely not.\n");
