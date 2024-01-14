@@ -1140,8 +1140,6 @@ void imran_khan(char ch,int count)
         switch(ch) {
         case 'Y':
         case 'y':
-        case 'D':
-        case 'd':
             printf("\n\tQuestion no %d\n",count); // imran khan Q3
             printf("Is charachter a bold man?\n");
             printf("\t Option: ");   
@@ -1187,15 +1185,16 @@ void imran_khan(char ch,int count)
                             printf("\t Option: ");   
                             scanf(" %c", &ch);
                             count++;
-                            switch(ch) {
-                            case 'Y': 
-                            case 'y':
-							printf("apne gabrana nhi hai.\n");
-							break;
-                            case 'D':
+                            switch(ch){
+							case 'D':
                             case 'd':
 							case 'N':
-							case 'n':			
+							case 'n':
+							case 'Y':
+							case 'y':
+
+							printf("apne gabrana nhi hai.\n");
+							printf("\n");			
                                 printf("\n\tQuestion no %d\n",count); // imran khan Q8
                                 printf("\nIs ur character patriotic\n");
                                 printf("\t Option: ");   
@@ -1323,7 +1322,8 @@ void imran_khan(char ch,int count)
                                 default: // imran khan Q9
                                 break;
                                 }                                        
-                            default: // imran khan Q8
+                            default:
+							sheikh_rasheed(ch,count); // imran khan Q8
                             break;
                             }                                        
                         default: // imran khan Q7
@@ -1342,7 +1342,8 @@ void imran_khan(char ch,int count)
         break;
         }
     default: // imran khan Q2
-    break;
+    sheikh_rasheed(ch,count);
+	break;
     }
 }//imran khan End
 void shahbaz(char ch , int count)
