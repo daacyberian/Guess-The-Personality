@@ -1191,6 +1191,7 @@ void imran_khan(char ch,int count)
                             case 'Y': 
                             case 'y':
 							printf("apne gabrana nhi hai.\n");
+							break;
                             case 'D':
                             case 'd':
 							case 'N':
@@ -1254,6 +1255,7 @@ void imran_khan(char ch,int count)
                                                     case 'Y': 
                                                     case 'y':
 													printf("apne gabrana nhi hai.\n");
+													break;
                                                     case 'D':
                                                     case 'd':
 													case 'N':
