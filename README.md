@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Guessing The Character Project
 
 ## Module 1: Introduction
@@ -54,3 +55,10 @@ We defined the personalities of each character in functions and made it a header
 - The game includes limited personalities. It only includes the famous politicians of Pakistan.
 - It might have errors.
 - The code is too long.
+=======
+Team Project " Guess The Personality " 
+Team Members 
+1) Dawood
+2) Usman
+3) Jawad
+>>>>>>> 46d9adf6eb2ffb817eaf8ea50c54524b71861223
