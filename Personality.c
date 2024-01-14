@@ -1258,6 +1258,7 @@ void imran_khan(char ch,int count)
 													case 'n':
 													case 'D':
 													case 'd':
+													sleep(2);
 													PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\ghabrana_nhi.wav"),NULL,SND_ASYNC);
 													printf("apne gabrana nhi hai.\n");
 													printf("\n");

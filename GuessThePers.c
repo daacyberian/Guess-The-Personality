@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include "Title.c"
 #include "Personality.c"
-
+#include <time.h>
 void Start_the_Game() {
 	int count = 1;
     char ch;
