@@ -1195,6 +1195,7 @@ void imran_khan(char ch,int count)
 							PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\ghabrana_nhi.wav"),NULL,SND_ASYNC);
 							printf("apne gabrana nhi hai.\n");
 							printf("\n");			
+							PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\akinator_theme (1).wav"),NULL,SND_ASYNC);		
                                 printf("\n\tQuestion no %d\n",count); // imran khan Q8
                                 printf("\nIs ur character patriotic\n");
                                 printf("\t Option: ");   
@@ -1260,6 +1261,7 @@ void imran_khan(char ch,int count)
 													PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\ghabrana_nhi.wav"),NULL,SND_ASYNC);
 													printf("apne gabrana nhi hai.\n");
 													printf("\n");
+													PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\akinator_theme (1).wav"),NULL,SND_ASYNC);		
                                                         printf("\n\tQuestion no %d\n",count); // imran khan Q14
                                                         printf("\napne gabrana nhi hai\n");
                                                         printf("Is your character famous for saying Absolutely not.\n");
