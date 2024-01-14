@@ -1190,10 +1190,12 @@ void imran_khan(char ch,int count)
                             switch(ch) {
                             case 'Y': 
                             case 'y':
+							printf("apne gabrana nhi hai.\n");
                             case 'D':
                             case 'd':
+							case 'N':
+							case 'n':			
                                 printf("\n\tQuestion no %d\n",count); // imran khan Q8
-                                printf("apne gabrana nhi hai.\n");
                                 printf("\nIs ur character patriotic\n");
                                 printf("\t Option: ");   
                                 scanf(" %c", &ch);
