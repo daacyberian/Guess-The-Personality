@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 4cb3240573ef3251487993a257aa540fd17c1674
 # Guessing The Character Project
 
 ## Module 1: Introduction
@@ -36,13 +32,10 @@ The player must be matured enough to play the game and must not be offended in a
 
 An intuitive and user-friendly interface that enhances the overall user experience, making it easy for players to navigate and interact with the game...
 
-<<<<<<< HEAD
-=======
 ### 2.5 User Sound Experience 
 
 The Theme Sound of Akinator is added which will enhance the user experience.  
- 
->>>>>>> 4cb3240573ef3251487993a257aa540fd17c1674
+
 ## Module 3: Working
 
 ### 3.1 User-Defined Headers
@@ -62,14 +55,12 @@ Used loops to design our game borders...
 We defined the personalities of each character in functions and made it a header file so we can use it anywhere in our main function...
 
 ## Limitations
-<<<<<<< HEAD
 
 - The game includes limited personalities. It only includes the famous politicians of Pakistan.
 - It might have errors.
 - The code is too long.
-=======
-Team Project " Guess The Personality " 
-=======
+Team Project " Guess The Personality "
+
 - Containing Personalities
 1) Nawaz Sharif
 2) Shahbaz Sharif
@@ -83,8 +74,9 @@ Team Project " Guess The Personality "
 - The game includes limited personalities. It only includes the famous politicians of Pakistan.
 - It might have errors.
 - The code is too long.
+  
  
-Team Project" Guess The Personality "
+Team Project " Guess The Personality ".
 
 
 Team Members 
