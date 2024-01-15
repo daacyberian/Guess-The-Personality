@@ -437,7 +437,7 @@ int main()
 		Rules();
 		Start_the_Game();
 		char o;
-		Printf(" If you want to play again \n Press '1' to continue \nPress 'Q' to Quit ");
+		printf(" If you want to play again \n Press '1' to continue \nPress 'Q' to Quit ");
 		scanf("%c", &o);
 		if (o == 1)
 		{
