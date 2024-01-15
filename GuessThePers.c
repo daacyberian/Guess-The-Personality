@@ -282,11 +282,10 @@ void Start_the_Game()
 															break;
 														}
 													default: // Nawaz Sharif Q10
+														imran_khan(ch, count);
+														shahbaz(ch, count);
 														Altaf(ch, count);
 
-														imran_khan(ch, count);
-
-														shahbaz(ch, count);
 
 														sheikh_rasheed(ch, count);
 
@@ -306,15 +305,11 @@ void Start_the_Game()
 													break;
 												}
 											default: // Nawaz Sharif Q8
-												Altaf(ch, count);
-
-												imran_khan(ch, count);
-
 												shahbaz(ch, count);
-
+												imran_khan(ch, count);
 												sheikh_rasheed(ch, count);
-
 												Bilawal(ch, count);
+												Altaf(ch, count);
 												break;
 											}
 										default: // Nawaz Sharif Q7
@@ -358,9 +353,9 @@ void Start_the_Game()
 
 							imran_khan(ch, count);
 
-							shahbaz(ch, count);
 
 							sheikh_rasheed(ch, count);
+							shahbaz(ch, count);
 
 							Bilawal(ch, count);
 							break;
@@ -380,14 +375,13 @@ void Start_the_Game()
 					// Nawaz Sharif Q1
 				default:
 					Bilawal(ch, count);
-
 					Altaf(ch, count);
 
 					imran_khan(ch, count);
 
 					shahbaz(ch, count);
-
 					sheikh_rasheed(ch, count);
+
 					break;
 				}
 			default:
