@@ -108,11 +108,11 @@ void Title3() {
 void Disclaimer( )
 {
     printf("\n");
-    printf("    ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** \n");
+    printf("    ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** \n\n");
 }
 void Rules()
 {
-    printf("\t\t\t\t\t\t\t      R****U****L****E****S \n");
+    printf("\t\t\t\t\t\t\t      R****U****L****E****S \n\n");
     printf("\t\t\t\t\t *** This Game Contains Only Politician Leaders Of Pakistan ***\n");    
 }
 void limitations()
