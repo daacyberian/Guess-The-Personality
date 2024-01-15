@@ -396,9 +396,9 @@ void Start_the_Game()
 				Benazir(ch, count);
 				break;
 			}
+			shahbaz(ch, count);
 			Bilawal(ch, count);
 			imran_khan(ch, count);
-			shahbaz(ch, count);
 			sheikh_rasheed(ch, count);
 			break;
 
