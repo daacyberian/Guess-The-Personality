@@ -762,6 +762,8 @@ void Bilawal(char ch, int count)
 					case 'y':
 					case 'D':
 					case 'd':
+					case 'N':
+					case 'n':
 						printf("\n\t\t\t\tQuestion no %d\n", count);
 						printf("\t\t\tDid your character made visa free for all Irani people?\n");
 						printf("\t\t\t\t Option: ");
@@ -773,6 +775,8 @@ void Bilawal(char ch, int count)
 						case 'y':
 						case 'D':
 						case 'd':
+						case 'N':
+						case 'n':
 							printf("\n\t\t\t\tQuestion no %d\n", count);
 							printf("\t\t\tDoes your politician holds higher position in party?\n");
 							printf("\t\t\t\t Option: ");
@@ -784,6 +788,8 @@ void Bilawal(char ch, int count)
 							case 'y':
 							case 'D':
 							case 'd':
+							case 'N':
+							case 'n':
 								printf("\n\t\t\t\tQuestion no %d\n", count);
 								printf("\t\t\tWas your politician a former prime minister/chief minister?\n");
 								printf("\t\t\t\t Option: ");
@@ -795,6 +801,8 @@ void Bilawal(char ch, int count)
 								case 'y':
 								case 'D':
 								case 'd':
+								case 'N':
+								case 'n':
 									printf("\n\t\t\t\tQuestion no %d\n", count);
 									printf("\t\t\tDoes his speech not make any sense right?\n");
 									printf("\t\t\t\t Option: ");
@@ -806,6 +814,8 @@ void Bilawal(char ch, int count)
 									case 'y':
 									case 'D':
 									case 'd':
+									case 'N':
+									case 'n':
 										printf("\n\t\t\t\tQuestion no %d\n", count);
 										printf("\t\t\tIs he fluent in english??\n");
 										printf("\t\t\t\t Option: ");
@@ -861,6 +871,8 @@ void Bilawal(char ch, int count)
 														case 'y':
 														case 'D':
 														case 'd':
+														case 'N':
+														case 'n':
 															printf("\n\t\t\t\tQuestion no %d\n", count);
 															printf("\t\t\tIs your politician likely to become Prime minister in future?\n");
 															printf("\t\t\t\t Option: ");
@@ -872,6 +884,8 @@ void Bilawal(char ch, int count)
 															case 'y':
 															case 'D':
 															case 'd':
+															case 'N':
+															case 'n':
 																printf("\n\t\t\t\tQuestion no %d\n", count);
 																printf("\t\t\tYou know him because of (Barish huti hai tw pani ata hai)?\n");
 																printf("\t\t\t\t Option: ");
@@ -883,8 +897,10 @@ void Bilawal(char ch, int count)
 																case 'y':
 																case 'D':
 																case 'd':
+																case 'N':
+																case 'n':
 																	printf("\n\t\t\t\tYour character is Bilawal Bhutto!\n");
-																	printf("\n\t\t\ttum to aik kanputli (statue) ho\n\t\t\ttumhari doren to PF hilaa raha hai\n");
+																	printf("\n\t\t\tTum to aik kanputli (statue) ho\n\t\t\ttumhari doren to PF hilaa raha hai\n");
 																	PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\bilawal.wav"), NULL, SND_ASYNC);
 																	system("pause");
 																	exit(0);
@@ -1296,7 +1312,7 @@ void imran_khan(char ch, int count)
 								printf("\t\t\t\tapne gabrana nhi hai.\n");
 								printf("\n\t\t\tQuestion no %d\n", count); // imran khan Q8
 								printf("\n\t\t\t\tIs ur character patriotic\n");
-								printf("\t Option: ");
+								printf("\t\t\t\t Option: ");
 								scanf(" %c", &ch);
 								count++;
 								switch (ch)
@@ -1400,6 +1416,8 @@ void imran_khan(char ch, int count)
 																case 'y':
 																case 'D':
 																case 'd':
+																case 'N':
+																case 'n':
 																	printf("\t\t\t\tYou are thinking about imran khan!\n");
 																	printf("\n\t\t\tHame to pf ne loota\n\t\t\tfit mai kahan dam tha\n\t\t\tGPA bhi wahan giri\n\t\t\tjahan AP mai number kam thay\n");
 																	PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\imran.wav"), NULL, SND_ASYNC);
