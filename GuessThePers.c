@@ -44,7 +44,7 @@ void Start_the_Game()
 			case 'Y':
 			case 'y':
 				printf("\n\tQuestion no %d", count);
-				printf("\nIs your character ?\n");
+				printf("\nIs your character currently in Pakistan?\n");
 				printf("\t Option: ");
 				scanf(" %c", &ch);
 				count++;
@@ -396,8 +396,10 @@ void Start_the_Game()
 				Benazir(ch, count);
 				break;
 			}
-			// Continue with more questions for the politician scenario
-			// ...
+			Bilawal(ch, count);
+			imran_khan(ch, count);
+			shahbaz(ch, count);
+			sheikh_rasheed(ch, count);
 			break;
 
 		default:
@@ -436,12 +438,13 @@ int main()
 		Start_the_Game();
 		char o;
 		Printf(" If you want to play again \n Press '1' to continue \nPress 'Q' to Quit ");
-		scanf("%c",&o);
-		if (o==1)
+		scanf("%c", &o);
+		if (o == 1)
 		{
 			continue;
 		}
-		else{
+		else
+		{
 			break;
 		}
 		return 0;
