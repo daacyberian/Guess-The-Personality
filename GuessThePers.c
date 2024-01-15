@@ -21,11 +21,11 @@ void Start_the_Game()
 	{
 	case 'Y':
 	case 'y':
-		printf("\nNOTE! TO ANSWER THE QUESTIONS YOU HAVE TO ENTER :\n");
+		printf("\n\tNOTE! TO ANSWER THE QUESTIONS YOU HAVE TO ENTER :\n");
 		printf("\n\t'Y' for YES :\n");
 		printf("\t'N' for NO :\n");
 		printf("\t'D' for Don't Know :\n");
-		printf("\nPress Y/y to continue.");
+		printf("\n\tPress Y/y to continue.");
 		printf("\n\tOption: ");
 		// Read the user's input for the second question
 		scanf(" %c", &ch);
@@ -34,18 +34,18 @@ void Start_the_Game()
 		{
 		case 'Y':
 		case 'y':
-			printf("\n\t\tQuestion no %d", count);
-			printf("\n\tIs your charchter male ?\n");
-			printf("\t\t Option: ");
+			printf("\n\t\t\t\tQuestion no %d", count);
+			printf("\n\t\t\tIs your charchter male ?\n");
+			printf("\t\t\t\t Option: ");
 			scanf(" %c", &ch);
 			count++;
 			switch (ch)
 			{
 			case 'Y':
 			case 'y':
-				printf("\n\t\tQuestion no %d", count);
-				printf("\n\tIs your character currently in Pakistan?\n");
-				printf("\t\t Option: ");
+				printf("\n\t\t\t\tQuestion no %d", count);
+				printf("\n\t\t\tIs your character currently in Pakistan?\n");
+				printf("\t\t\t\t Option: ");
 				scanf(" %c", &ch);
 				count++;
 				switch (ch)
