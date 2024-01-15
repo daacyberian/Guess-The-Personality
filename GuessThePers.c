@@ -425,8 +425,6 @@ void Start_the_Game()
 int main()
 {
 		PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\Audios\\akinator_theme (1).wav"), NULL, SND_ASYNC);
-	while (1)
-	{
 		system("clrscr");
 		system("color F0");
 		border();
@@ -439,14 +437,6 @@ int main()
 		char o;
 		printf(" If you want to play again \n Press '1' to continue \nPress 'Q' to Quit ");
 		scanf("%c", &o);
-		if (o == 1)
-		{
-			continue;
-		}
-		else
-		{
-			break;
-		}
-		return 0;
-	}
+		
+
 }
