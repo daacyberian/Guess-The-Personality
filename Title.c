@@ -112,8 +112,8 @@ void Disclaimer( )
 }
 void Rules()
 {
-    printf("\t\t\t\t\t\t   R****U****L****E****S \n");
-    printf("\t\t\t\t *** This Game Contains Only Politician Leaders Of Pakistan ***\n");    
+    printf("\t\t\t\t\t\t\t   R****U****L****E****S \n");
+    printf("\t\t\t\t\t\t *** This Game Contains Only Politician Leaders Of Pakistan ***\n");    
 }
 void limitations()
 {
