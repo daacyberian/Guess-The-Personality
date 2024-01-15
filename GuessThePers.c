@@ -44,7 +44,7 @@ void Start_the_Game()
 			case 'Y':
 			case 'y':
 				printf("\n\t\t\t\tQuestion no %d", count);
-				printf("\n\t\t\tIs your character currently in Pakistan?\n");
+				printf("\n\t\t\tdoes your character belongs from Punjab?\n");
 				printf("\t\t\t\t Option: ");
 				scanf(" %c", &ch);
 				count++;
