@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <mmsystem.h>
+#include<windows.h>
 
 void sheikh_rasheed(char ch, int count);
 void imran_khan(char ch, int count);
