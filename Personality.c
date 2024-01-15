@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include<windows.h>
+#include <windows.h>
 #include <mmsystem.h>
 
 void sheikh_rasheed(char ch, int count);
@@ -1292,7 +1292,8 @@ void imran_khan(char ch, int count)
 							case 'd':
 							case 'n':
 							case 'N':
-								printf("apne gabrana nhi hai.\n");
+								printf("\n");
+								printf("\tapne gabrana nhi hai.\n");
 								printf("\n\tQuestion no %d\n", count); // imran khan Q8
 								printf("\nIs ur character patriotic\n");
 								printf("\t Option: ");
@@ -1361,7 +1362,8 @@ void imran_khan(char ch, int count)
 													case 'd':
 													case 'n':
 													case 'N':
-														printf("\napne gabrana nhi hai\n");
+														printf("\n");
+														printf("\n\tapne gabrana nhi hai\n");
 														printf("\n\tQuestion no %d\n", count); // imran khan Q14
 														printf("Is your character famous for saying Absolutely not.\n");
 														printf("\t Option: ");
@@ -1373,6 +1375,7 @@ void imran_khan(char ch, int count)
 														case 'y':
 														case 'D':
 														case 'd':
+														
 															printf("\n\tQuestion no %d\n", count); // imran khan Q15
 															printf("Did he fell from stage?\n");
 															printf("\t Option: ");
@@ -1384,6 +1387,8 @@ void imran_khan(char ch, int count)
 															case 'y':
 															case 'D':
 															case 'd':
+															case 'n':
+															case 'N':
 																printf("\n\tQuestion no %d\n", count); // imran khan Q16
 																printf("kya tabdeeli aa chuki he?\n");
 																printf("\t Option: ");
