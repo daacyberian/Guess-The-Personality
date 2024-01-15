@@ -424,7 +424,7 @@ int main()
 	{
 		PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\akinator_theme (1).wav"),NULL,SND_ASYNC);
 		system("clrscr");
-		system("color 0F");
+		system("color F0");
 		border();
 		Title();
 		Title2();
