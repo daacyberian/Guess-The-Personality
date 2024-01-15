@@ -115,3 +115,9 @@ void Rules()
     printf("\t\t\t\t\t\t   R****U****L****E****S \n");
     printf("\t\t\t\t *** This Game Contains Only Politician Leaders Of Pakistan ***\n");    
 }
+void limitations()
+{
+    printf("\t\t\t\t\t LIMITED PERSONALITIES\n");
+    printf("\t\t\t\t\t 1)Nawaz Sharif \n\t\t\t\t\t2)Shabaz Sharif\n\t\t\t\t\t3)Altaf Hussain\n\t\t\t\t\t4)Imran Khan\n\t\t\t\t\t5)Sheikh Rasheed\n\t\t\t\t\t6)Bilawal Bhutto\n\t\t\t\t\t7)Benazir Bhutto\n\t\t\t\t\t8)Maryam Nawaz\n\t\t\t\t\t9)Firdous Ashiq Awan\n\t\t\t\t\t9)\n");
+
+}

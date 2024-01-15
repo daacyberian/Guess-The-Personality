@@ -435,6 +435,8 @@ int main()
 		Disclaimer();
 		Rules();
 		border();
+		limitations();
+		border();
 		Start_the_Game();
 		
 
