@@ -44,7 +44,7 @@ void Start_the_Game()
 			case 'Y':
 			case 'y':
 				printf("\n\tQuestion no %d", count);
-				printf("\nIs your character a politician?\n");
+				printf("\nIs your character ?\n");
 				printf("\t Option: ");
 				scanf(" %c", &ch);
 				count++;
@@ -219,6 +219,8 @@ void Start_the_Game()
 																			case 'd':
 																				printf("\nYour character is the one and only nawaz shariff!\n");
 																				printf("\n\tna sadiq hu na Ameen hu \n\tme krapshan ki masheen hu");
+																				PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\Audios\\nawaz.wav"), NULL, SND_ASYNC);
+																				system("pause");
 																				exit(0);
 																			}
 																		default: // Nawaz Sharif Q15
@@ -422,7 +424,7 @@ int main()
 {
 	while (1)
 	{
-		PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\Audios\\akinator_theme (1).wav"),NULL,SND_ASYNC);
+		PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\Audios\\akinator_theme (1).wav"), NULL, SND_ASYNC);
 		system("clrscr");
 		system("color F0");
 		border();
@@ -432,6 +434,16 @@ int main()
 		Disclaimer();
 		Rules();
 		Start_the_Game();
+		char o;
+		Printf(" If you want to play again \n Press '1' to continue \nPress 'Q' to Quit ");
+		scanf("%c",&o);
+		if (o==1)
+		{
+			continue;
+		}
+		else{
+			break;
+		}
 		return 0;
 	}
 }
