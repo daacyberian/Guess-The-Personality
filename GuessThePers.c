@@ -431,12 +431,11 @@ int main()
 		Title();
 		Title2();
 		Title3();
+		border();
 		Disclaimer();
 		Rules();
+		border();
 		Start_the_Game();
-		char o;
-		printf(" If you want to play again \n Press '1' to continue \nPress 'Q' to Quit ");
-		scanf("%c", &o);
 		
 
 }
