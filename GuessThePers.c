@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Personality.c"
+#include <windows.h>
+#include <mmsystem.h>
+#include "Title.c"
 
 void Start_the_Game()
 {
@@ -417,12 +420,17 @@ void Start_the_Game()
 
 int main()
 {
-	border();
-	Title();
-	Title2();
-	Title3();
-	Disclaimer();
-	Rules();
-	Start_the_Game();
-	return 0;
+	while (1)
+	{
+		system("clrscr");
+		system("color F0");
+		border();
+		Title();
+		Title2();
+		Title3();
+		Disclaimer();
+		Rules();
+		Start_the_Game();
+		return 0;
+	}
 }
