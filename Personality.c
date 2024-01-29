@@ -198,7 +198,7 @@ void nawaz(char ch, int count)
 																case 'd':
 																	printf("\n\t\t\t\tYour character is the one and only nawaz shariff!\n");
 																	printf("\n\t\t\tna sadiq hu na Ameen hu \n\tme krapshan ki masheen hu");
-																	PlaySound(TEXT("nawaz.wav"), NULL, SND_ASYNC);
+																	PlaySound(TEXT("C:\\c++\\Projectc\\Guess-The-Personality\\nawaz.wav"), NULL, SND_ASYNC);
 																	system("pause");
 																	exit(0);
 																}
@@ -459,7 +459,7 @@ void maryam(char ch, int count)
 														case 'd':
 															printf("\t\t\t\tYou are thinking about maryam nawaz!\n");
 															printf("\n\t\t\tYe bhool hain gulaab k koi asla to nhi\n\t\t\tPF mai backlog lage koi masla to nhi \n");
-															PlaySound(TEXT("Maryam.wav"), NULL, SND_ASYNC);
+															PlaySound(TEXT("C:\\c++\\Projectc\\Guess-The-Personality\\Maryam.wav"), NULL, SND_ASYNC);
 															system("pause");
 															exit(0);
 														}
@@ -699,7 +699,7 @@ void Altaf(char ch, int count)
 													case 'y':
 														printf("\n\t\t\t\tYour character is Altaf Hussain!\n");
 														printf("\n\t\t\tVote for Miss Samia Masood Awan  \n\t\t\tWarnaa bori tayyaar\n");
-														PlaySound(TEXT("altaf.wav"), NULL, SND_ASYNC);
+														PlaySound(TEXT("C:\\c++\\Projectc\\Guess-The-Personality\\altaf.wav"), NULL, SND_ASYNC);
 														system("pause");
 														exit(0);
 													}
@@ -1131,7 +1131,7 @@ void Bilawal(char ch, int count)
 																case 'n':
 																	printf("\n\t\t\t\tYour character is Bilawal Bhutto!\n");
 																	printf("\n\t\t\tTum to aik kanputli (statue) ho\n\t\t\ttumhari doren to PF hilaa raha hai\n");
-																	PlaySound(TEXT("bilawal.wav"), NULL, SND_ASYNC);
+																	PlaySound(TEXT("C:\\c++\\Projectc\\Guess-The-Personality\\bilawal.wav"), NULL, SND_ASYNC);
 																	system("pause");
 																	exit(0);
 																}
@@ -1313,7 +1313,7 @@ void firdous(char ch, int count)
 										case 'd':
 											printf("\n\t\t\t\tYour character is firdous ashiq awan!\n");
 											printf("\n\t\t\tPolitics mujhe ati nhi \n\t\t\tBoxing meri jaati nhi\n");
-											PlaySound(TEXT("Firdos.wav"), NULL, SND_ASYNC);
+											PlaySound(TEXT("C:\\c++\\Projectc\\Guess-The-Personality\\Firdos.wav"), NULL, SND_ASYNC);
 											system("pause");
 											exit(0);
 										}
@@ -1587,7 +1587,7 @@ void imran_khan(char ch, int count)
 																case 'n':
 																	printf("\t\t\t\tYou are thinking about imran khan!\n");
 																	printf("\n\t\t\tHame to pf ne loota\n\t\t\tfit mai kahan dam tha\n\t\t\tGPA bhi wahan giri\n\t\t\tjahan AP mai number kam thay\n");
-																	PlaySound(TEXT("imran.wav"), NULL, SND_ASYNC);
+																	PlaySound(TEXT("C:\\c++\\Projectc\\Guess-The-Personality\\imran.wav"), NULL, SND_ASYNC);
 																	system("pause");
 																	exit(0);
 																}
@@ -1850,7 +1850,7 @@ void shahbaz(char ch, int count)
 															case 'd':
 																printf("\n\t\t\tYour character is Shahbaz Sharif!\n");
 																printf("\n\t\t\t Mei Programming Prhne nhi aya \n\t\t\tlekin CS k lye Majboori hei\n");
-																PlaySound(TEXT("Shahbaz.wav"), NULL, SND_ASYNC);
+																PlaySound(TEXT("C:\\c++\\Projectc\\Guess-The-Personality\\Shahbaz.wav"), NULL, SND_ASYNC);
 																system("pause");
 																exit(0);
 															}
@@ -2063,7 +2063,7 @@ void sheikh_rasheed(char ch, int count)
 													case 'd':
 														printf("\n\t\t\t\tYou are thinking about sheikh rasheed\n");
 														printf("\n\t\t\tSheikhu Didnt choose thug life ,\n\t\t\t thug life choose him\n");
-														PlaySound(TEXT("Sheikh.wav"), NULL, SND_ASYNC);
+														PlaySound(TEXT("C:\\c++\\Projectc\\Guess-The-Personality\\Sheikh.wav"), NULL, SND_ASYNC);
 														system("pause");
 														exit(0);
 													default:
