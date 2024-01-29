@@ -12,6 +12,294 @@ void Bilawal(char ch, int count);
 void Altaf(char ch, int count);
 void Benazir(char ch, int count);
 void firdous(char ch, int count);
+void nawaz(char ch, int count);
+
+void nawaz(char ch, int count)
+{
+	printf("\n\t\t\t\tQuestion no %d", count);
+	printf("\n\t\t\tIs your character over 50 years?\n");
+	printf("\t\t\t\t Option: ");
+	scanf(" %c", &ch);
+	count++;
+	switch (ch)
+	{
+	case 'Y':
+	case 'y': // Nawaz Sharif Q1
+	case 'D':
+	case 'd':
+		printf("\n\t\t\t\tQuestion no %d", count);
+		printf("\n\t\t\tDoes your character belongs from Punjab?\n");
+		printf("\t\t\t\t Option: ");
+		scanf(" %c", &ch);
+		count++;
+		switch (ch)
+		{
+		case 'Y':
+		case 'y':
+		case 'D':
+		case 'd': // Nawaz Sharif Q2
+			printf("\n\t\t\t\tQuestion no %d", count);
+			printf("\n\t\t\tDoes your character have famous  brother?\n");
+			printf("\t\t\t\t Option: ");
+			scanf(" %c", &ch);
+			count++;
+			switch (ch)
+			{
+			case 'Y':
+			case 'y':
+			case 'D':
+			case 'd': // Nawaz Sharif Q3
+				printf("\n\t\t\t\tQuestion no %d", count);
+				printf("\n\t\t\tDoes your character have famous Daughter?\n");
+				printf("\t\t\t\t Option: ");
+				scanf(" %c", &ch);
+				count++;
+				switch (ch)
+				{
+				case 'Y':
+				case 'y':
+					// Nawaz Sharif Q4
+					printf("\n\t\t\t\tQuestion no %d", count);
+					printf("\n\t\t\tDoes your character's Daughter politician?\n");
+					printf("\t\t\t\t Option: ");
+					scanf(" %c", &ch);
+					count++;
+					switch (ch)
+					{
+					case 'Y':
+					case 'y': // Nawaz Sharif Q5
+
+						printf("\n\t\t\t\tQuestion no %d", count);
+						printf("\n\t\t\tDoes your character introduced Projects?\n");
+						printf("\t\t\t\t Option: ");
+						scanf(" %c", &ch);
+						count++;
+						switch (ch)
+						{
+						case 'Y':
+						case 'y': // Nawaz Sharif Q6
+						case 'D':
+						case 'd':
+							printf("\n\t\t\t\tQuestion no %d", count);
+							printf("\n\t\t\tDid your character got hit with a shoe?\n");
+							printf("\t\t\t\t Option: ");
+							scanf(" %c", &ch);
+							count++;
+							switch (ch)
+							{
+							case 'Y':
+							case 'y':
+							case 'D':
+							case 'd': // Nawaz Sharif Q7
+								printf("\n\t\t\t\tQuestion no %d", count);
+								printf("\n\t\t\tDid your character become PM more than 1 times?\n");
+								printf("\t\t\t\t Option: ");
+								scanf(" %c", &ch);
+								count++;
+								switch (ch)
+								{
+								case 'Y':
+								case 'y':
+								case 'D':
+								case 'd': // Nawaz Sharif Q8
+									printf("\n\t\t\t\tQuestion no %d", count);
+									printf("\n\t\t\tIs your character half bald?\n");
+									printf("\t\t\t\t Option: ");
+									scanf(" %c", &ch);
+									count++;
+									switch (ch)
+									{
+									case 'Y':
+									case 'y':
+									case 'D':
+									case 'd': // Nawaz Sharif Q9
+										printf("\n\t\t\t\tQuestion no %d", count);
+										printf("\n\t\t\tDoes he have a palace?\n");
+										printf("\t\t\t\t Option: ");
+										scanf(" %c", &ch);
+										count++;
+										switch (ch)
+										{
+										case 'Y':
+										case 'y': // Nawaz Sharif Q10
+										case 'D':
+										case 'd':
+										case 'n':
+										case 'N':
+											printf("\n\t\t\t\tQuestion no %d", count);
+											printf("\n\t\t\tDoes your character look like Bhalu?\n");
+											printf("\t\t\t\t Option: ");
+											scanf(" %c", &ch);
+											count++;
+											switch (ch)
+											{
+											case 'Y':
+											case 'y': // Nawaz Sharif Q11
+											case 'D':
+											case 'd':
+											case 'n':
+											case 'N':
+												printf("\n\t\t\t\tQuestion no %d", count);
+												printf("\n\t\t\tYour character got jailed?\n");
+												printf("\t\t\t\t Option: ");
+												scanf(" %c", &ch);
+												count++;
+												switch (ch)
+												{
+												case 'Y':
+												case 'y':
+												case 'D':
+												case 'd': // Nawaz Sharif Q12
+													printf("\n\t\t\t\tQuestion no %d", count);
+													printf("\n\t\t\tDoes your character went for the medical abroad?\n");
+													printf("\t\t\t\t Option: ");
+													scanf(" %c", &ch);
+													count++;
+													switch (ch)
+													{
+													case 'Y':
+													case 'y':
+													case 'D':
+													case 'd': // Nawaz Sharif Q13
+														printf("\n\t\t\t\tQuestion no %d", count);
+														printf("\n\t\t\tDid your character ran from the country?\n");
+														printf("\t\t\t\t Option: ");
+														scanf(" %c", &ch);
+														count++;
+														switch (ch)
+														{
+														case 'Y':
+														case 'y':
+														case 'D':
+														case 'd': // Nawaz Sharif Q14
+															printf("\n\t\t\t\tQuestion no %d", count);
+															printf("\n\t\t\tIs your character's wife alive?\n");
+															printf("\t\t\t\t Option: ");
+															scanf(" %c", &ch);
+															count++;
+															switch (ch)
+															{
+															case 'Y':
+															case 'y': // Nawaz Sharif Q15
+															case 'D':
+															case 'd':
+															case 'n':
+															case 'N':
+																printf("\n\t\t\t\tQuestion no %d", count);
+																printf("\n\t\t\tIs your character from GO NAWAZ GO era?\n");
+																printf("\t\t\t\t Option: ");
+																scanf(" %c", &ch);
+																count++;
+																switch (ch)
+																{
+																case 'Y':
+																case 'y':
+																case 'D':
+																case 'd':
+																	printf("\n\t\t\t\tYour character is the one and only nawaz shariff!\n");
+																	printf("\n\t\t\tna sadiq hu na Ameen hu \n\tme krapshan ki masheen hu");
+																	PlaySound(TEXT("nawaz.wav"), NULL, SND_ASYNC);
+																	system("pause");
+																	exit(0);
+																}
+															default: // Nawaz Sharif Q15
+																nawaz(ch, count);
+
+																break;
+															}
+														default: // Nawaz Sharif Q14
+															nawaz(ch, count);
+
+															break;
+														}
+													default: // Nawaz Sharif Q13
+														nawaz(ch, count);
+
+														break;
+													}
+												default: // Nawaz Sharif Q12
+													nawaz(ch, count);
+
+													break;
+												}
+											default: // Nawaz Sharif Q11
+												nawaz(ch, count);
+
+												break;
+											}
+										default: // Nawaz Sharif Q10
+											nawaz(ch, count);
+
+											break;
+										}
+									default: // Nawaz Sharif Q9
+										Altaf(ch, count);
+										sheikh_rasheed(ch, count);
+										imran_khan(ch, count);
+										shahbaz(ch, count);
+										nawaz(ch, count);
+
+										break;
+									}
+								default: // Nawaz Sharif Q8
+									nawaz(ch, count);
+									break;
+								}
+							default: // Nawaz Sharif Q7
+								nawaz(ch, count);
+
+								break;
+							}
+						default: // Nawaz Sharif Q6
+							nawaz(ch, count);
+
+							break;
+						}
+					default: // Nawaz Sharif Q5
+						shahbaz(ch, count);
+						Altaf(ch, count);
+						sheikh_rasheed(ch, count);
+						imran_khan(ch, count);
+						nawaz(ch, count);
+
+						break;
+					}
+				default: // Nawaz Sharif Q4
+					shahbaz(ch, count);
+					Altaf(ch, count);
+					sheikh_rasheed(ch, count);
+					imran_khan(ch, count);
+					nawaz(ch, count);
+					break;
+				}
+			default: // Nawaz Sharif Q3
+				Altaf(ch, count);
+				sheikh_rasheed(ch, count);
+				imran_khan(ch, count);
+
+				nawaz(ch, count);
+
+				break;
+			}
+		default: // Nawaz Sharif Q2
+			Altaf(ch, count);
+
+			sheikh_rasheed(ch, count);
+			imran_khan(ch, count);
+
+			shahbaz(ch, count);
+			nawaz(ch, count);
+
+			break;
+		}
+		// Nawaz Sharif Q1
+	default:
+		Bilawal(ch, count);
+		nawaz(ch, count);
+
+		break;
+	}
+}
 
 void maryam(char ch, int count)
 {
@@ -171,87 +459,73 @@ void maryam(char ch, int count)
 														case 'd':
 															printf("\t\t\t\tYou are thinking about maryam nawaz!\n");
 															printf("\n\t\t\tYe bhool hain gulaab k koi asla to nhi\n\t\t\tPF mai backlog lage koi masla to nhi \n");
-															PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\Maryam.wav"), NULL, SND_ASYNC);
+															PlaySound(TEXT("Maryam.wav"), NULL, SND_ASYNC);
 															system("pause");
 															exit(0);
 														}
 													default: // maryam nawaz Q14
-														firdous(ch, count);
-														Benazir(ch, count);
 														maryam(ch, count);
+														firdous(ch, count);
 														break;
 													}
 												default: // maryam nawaz Q13
-													firdous(ch, count);
-													Benazir(ch, count);
 													maryam(ch, count);
+													firdous(ch, count);
 													break;
 												}
 											default: // maryam nawaz Q12
-												firdous(ch, count);
-												Benazir(ch, count);
 												maryam(ch, count);
+												firdous(ch, count);
 												break;
 											}
 										default: // maryam nawaz Q11
-											firdous(ch, count);
-											Benazir(ch, count);
 											maryam(ch, count);
+											firdous(ch, count);
 											break;
 										}
 									default: // maryam nawaz Q10
-										firdous(ch, count);
-
-										Benazir(ch, count);
 										maryam(ch, count);
+										firdous(ch, count);
 										break;
 									}
 								default: // maryam nawaz Q9
-									firdous(ch, count);
-									Benazir(ch, count);
 									maryam(ch, count);
+									firdous(ch, count);
 									break;
 								}
 							default: // maryam nawaz Q8
-								firdous(ch, count);
-								Benazir(ch, count);
 								maryam(ch, count);
+								firdous(ch, count);
 								break;
 							}
 						default: // maryam nawaz Q7
-							firdous(ch, count);
-							Benazir(ch, count);
 							maryam(ch, count);
+							firdous(ch, count);
 							break;
 						}
 					default: // maryam nawaz Q6
-						firdous(ch, count);
-						Benazir(ch, count);
 						maryam(ch, count);
+						firdous(ch, count);
 						break;
 					}
 				default: // maryam nawaz Q5
-					firdous(ch, count);
-					Benazir(ch, count);
 					maryam(ch, count);
+					firdous(ch, count);
 					break;
 				}
 			default: // maryam nawaz Q4
-				firdous(ch, count);
-				Benazir(ch, count);
 				maryam(ch, count);
+				firdous(ch, count);
 				break;
 			}
 		default: // maryam nawaz Q3
-			firdous(ch, count);
-			Benazir(ch, count);
 			maryam(ch, count);
+			firdous(ch, count);
 			break;
 		}
 	default: // maryam nawaz Q2
-		firdous(ch, count);
-		Benazir(ch, count);
 		maryam(ch, count);
+		firdous(ch, count);
 		break;
 	}
 }
@@ -425,104 +699,58 @@ void Altaf(char ch, int count)
 													case 'y':
 														printf("\n\t\t\t\tYour character is Altaf Hussain!\n");
 														printf("\n\t\t\tVote for Miss Samia Masood Awan  \n\t\t\tWarnaa bori tayyaar\n");
-														PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\altaf.wav"), NULL, SND_ASYNC);
+														PlaySound(TEXT("altaf.wav"), NULL, SND_ASYNC);
 														system("pause");
 														exit(0);
 													}
 												default:
-													Bilawal(ch, count);
-
-													imran_khan(ch, count);
-													shahbaz(ch, count);
-													sheikh_rasheed(ch, count);
+													Altaf(ch, count);
 													break; // Q13
 												}
 											default: // Q12
-												Bilawal(ch, count);
-
-												imran_khan(ch, count);
-												shahbaz(ch, count);
-												sheikh_rasheed(ch, count);
+												Altaf(ch, count);
 												break;
 											}
 										default: // Q11
-											Bilawal(ch, count);
-
-											imran_khan(ch, count);
-											shahbaz(ch, count);
-											sheikh_rasheed(ch, count);
+											Altaf(ch, count);
 											break;
 										}
 									default: // Q10
-										Bilawal(ch, count);
-
-										imran_khan(ch, count);
-										shahbaz(ch, count);
-										sheikh_rasheed(ch, count);
+										Altaf(ch, count);
 										break;
 									}
 								default: // Q9
-									Bilawal(ch, count);
 									Altaf(ch, count);
-									imran_khan(ch, count);
-									shahbaz(ch, count);
-									sheikh_rasheed(ch, count);
 									break;
 								}
 							default: // Q8
-								Bilawal(ch, count);
 								Altaf(ch, count);
-								imran_khan(ch, count);
-								shahbaz(ch, count);
-								sheikh_rasheed(ch, count);
 								break;
 							}
 						default: // Q7
-							Bilawal(ch, count);
 							Altaf(ch, count);
-							imran_khan(ch, count);
-							shahbaz(ch, count);
-							sheikh_rasheed(ch, count);
 							break;
 						}
 					default: // Q6
-						Bilawal(ch, count);
 						Altaf(ch, count);
-						imran_khan(ch, count);
-						shahbaz(ch, count);
-						sheikh_rasheed(ch, count);
 						break;
 					}
 				default: // Q5
-					Bilawal(ch, count);
 					Altaf(ch, count);
-					imran_khan(ch, count);
-					shahbaz(ch, count);
-					sheikh_rasheed(ch, count);
 					break;
 				}
 			default: // Q4
-				Bilawal(ch, count);
 				Altaf(ch, count);
-				imran_khan(ch, count);
-				shahbaz(ch, count);
-				sheikh_rasheed(ch, count);
 				break;
 			}
 		default: // Q3
-			shahbaz(ch, count);
-			Bilawal(ch, count);
 			Altaf(ch, count);
-			imran_khan(ch, count);
-			sheikh_rasheed(ch, count);
 			break;
 		}
 	default: // Q2
 		sheikh_rasheed(ch, count);
-		Bilawal(ch, count);
-		Altaf(ch, count);
 		imran_khan(ch, count);
-		shahbaz(ch, count);
+
 		break;
 	}
 }
@@ -539,6 +767,8 @@ void Benazir(char ch, int count)
 	case 'y':
 	case 'D':
 	case 'd':
+	case 'N':
+	case 'n':
 		printf("\n\t\t\t\tQuestion no %d\n", count);
 		printf("\t\t\tWas this person associated with a prominent political family in Pakistan?\n");
 		printf("\t\t\t\t Option: ");
@@ -550,8 +780,11 @@ void Benazir(char ch, int count)
 		case 'y':
 		case 'D':
 		case 'd':
+		case 'N':
+
+		case 'n':
 			printf("\n\t\t\t\tQuestion no %d\n", count);
-			printf("\t\t\tDid she attend Harvard University for her education?\n");
+			printf("\t\t\tDid she attend Harvard University and Oxford Uni for her education?\n");
 			printf("\t\t\t\t Option: ");
 			scanf(" %c", &ch);
 			count++;
@@ -561,6 +794,8 @@ void Benazir(char ch, int count)
 			case 'y':
 			case 'D':
 			case 'd':
+			case 'N':
+			case 'n':
 				printf("\n\t\t\t\tQuestion no %d\n", count);
 				printf("\t\t\tWas your character married?\n");
 				printf("\t\t\t\t Option: ");
@@ -572,6 +807,8 @@ void Benazir(char ch, int count)
 				case 'y':
 				case 'D':
 				case 'd':
+				case 'N':
+				case 'n':
 					printf("\n\t\t\t\tQuestion no %d\n", count);
 					printf("\t\t\tDid her political career involve periods of exile?\n");
 					printf("\t\t\t\t Option: ");
@@ -583,6 +820,8 @@ void Benazir(char ch, int count)
 					case 'y':
 					case 'D':
 					case 'd':
+					case 'N':
+					case 'n':
 						printf("\n\t\t\t\tQuestion no %d\n", count);
 						printf("\t\t\tWas she the first woman to lead a Muslim-majority country?\n");
 						printf("\t\t\t\t Option: ");
@@ -594,6 +833,8 @@ void Benazir(char ch, int count)
 						case 'y':
 						case 'D':
 						case 'd':
+						case 'N':
+						case 'n':
 							printf("\n\t\t\t\tQuestion no %d\n", count);
 							printf("\t\t\tDid this person serve as the Prime Minister of Pakistan??\n");
 							printf("\t\t\t\t Option: ");
@@ -605,6 +846,8 @@ void Benazir(char ch, int count)
 							case 'y':
 							case 'D':
 							case 'd':
+							case 'N':
+							case 'n':
 								printf("\n\t\t\t\tQuestion no %d\n", count);
 								printf("\t\t\tWas she known for her efforts in promoting women's rights in her country?\n");
 								printf("\t\t\t\t Option: ");
@@ -616,6 +859,8 @@ void Benazir(char ch, int count)
 								case 'y':
 								case 'D':
 								case 'd':
+								case 'N':
+								case 'n':
 									printf("\n\t\t\t\tQuestion no %d\n", count);
 									printf("\t\t\tDid she write an autobiography sharing her experiences in politics?\n");
 									printf("\t\t\t\t Option: ");
@@ -627,6 +872,8 @@ void Benazir(char ch, int count)
 									case 'y':
 									case 'D':
 									case 'd':
+									case 'N':
+									case 'n':
 										printf("\n\t\t\t\tQuestion no %d\n", count);
 										printf("\t\t\tDid her life end tragically due to a political incident?\n");
 										printf("\t\t\t\t Option: ");
@@ -638,70 +885,53 @@ void Benazir(char ch, int count)
 										case 'y':
 										case 'D':
 										case 'd':
+										case 'N':
+										case 'n':
 											printf("\n\t\t\tYour character is the 1st women PM of Pakistan Benzair Bhutto!\n");
 											system("pause");
 											exit(0);
 										}
 									default: // benazir bhutto Q10
-										maryam(ch, count);
-										firdous(ch, count);
+										Benazir(ch, count);
 
 										break;
 									}
 								default: // // benazir bhutto Q9
-									maryam(ch, count);
-									firdous(ch, count);
-
-									break;
+									Benazir(ch, count);
 									break;
 								}
 							default: // benazir Q8
-								maryam(ch, count);
-								firdous(ch, count);
+								Benazir(ch, count);
 
-								break;
 								break;
 							}
 						default: // benazir Q7
-							maryam(ch, count);
-							firdous(ch, count);
-
-							break;
+							Benazir(ch, count);
 							break;
 						}
 					default: // benazir Q6
-						maryam(ch, count);
-						firdous(ch, count);
+						Benazir(ch, count);
 
-						break;
 						break;
 					}
 				default: // benazir Q5
-					maryam(ch, count);
-					firdous(ch, count);
+					Benazir(ch, count);
 
-					break;
 					break;
 				}
 			default: // benazir Q4
-				maryam(ch, count);
-				firdous(ch, count);
+				Benazir(ch, count);
 
-				break;
 				break;
 			}
 		default: // benazir Q3
-			maryam(ch, count);
-			firdous(ch, count);
+			Benazir(ch, count);
 
-			break;
 			break;
 		}
 	default: // benazir Q2
-		maryam(ch, count);
-		firdous(ch, count);
+		Benazir(ch, count);
 
-		break;
 		break;
 	}
 } // function end
@@ -901,129 +1131,69 @@ void Bilawal(char ch, int count)
 																case 'n':
 																	printf("\n\t\t\t\tYour character is Bilawal Bhutto!\n");
 																	printf("\n\t\t\tTum to aik kanputli (statue) ho\n\t\t\ttumhari doren to PF hilaa raha hai\n");
-																	PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\bilawal.wav"), NULL, SND_ASYNC);
+																	PlaySound(TEXT("bilawal.wav"), NULL, SND_ASYNC);
 																	system("pause");
 																	exit(0);
 																}
 															default: // bilawal bhutto Q16
 																Bilawal(ch, count);
-																Altaf(ch, count);
-																imran_khan(ch, count);
-																shahbaz(ch, count);
-																sheikh_rasheed(ch, count);
 																break;
 															}
 														default: // bilawal bhutto Q15
 															Bilawal(ch, count);
-															Altaf(ch, count);
-															imran_khan(ch, count);
-															shahbaz(ch, count);
-															sheikh_rasheed(ch, count);
 															break;
 														}
 													default: // bilawal bhutto Q14
 														Bilawal(ch, count);
-														Altaf(ch, count);
-														imran_khan(ch, count);
-														shahbaz(ch, count);
-														sheikh_rasheed(ch, count);
 														break;
 													}
 												default: // bilawal bhutto Q13
 													Bilawal(ch, count);
-													Altaf(ch, count);
-													imran_khan(ch, count);
-													shahbaz(ch, count);
-													sheikh_rasheed(ch, count);
 													break;
 												}
 											default: // bilawal bhutto Q12
 												Bilawal(ch, count);
-												Altaf(ch, count);
-												imran_khan(ch, count);
-												shahbaz(ch, count);
-												sheikh_rasheed(ch, count);
 												break;
 											}
 										default: // bilawal bhutto Q11
 											Bilawal(ch, count);
-											Altaf(ch, count);
-											imran_khan(ch, count);
-											shahbaz(ch, count);
-											sheikh_rasheed(ch, count);
 											break;
 										}
 									default: // bilawal bhutto Q10
 										Bilawal(ch, count);
-										Altaf(ch, count);
-										imran_khan(ch, count);
-										shahbaz(ch, count);
-										sheikh_rasheed(ch, count);
 										break;
 									}
 								default: // bilawal bhutto Q9
 									Bilawal(ch, count);
-									Altaf(ch, count);
-									imran_khan(ch, count);
-									shahbaz(ch, count);
-									sheikh_rasheed(ch, count);
 									break;
 								}
 							default: // bilawal bhutto Q8
 								Bilawal(ch, count);
-								Altaf(ch, count);
-								imran_khan(ch, count);
-								shahbaz(ch, count);
-								sheikh_rasheed(ch, count);
 								break;
 							}
 						default: // bilawal bhutto Q7
 							Bilawal(ch, count);
-							Altaf(ch, count);
-							imran_khan(ch, count);
-							shahbaz(ch, count);
-							sheikh_rasheed(ch, count);
 							break;
 						}
 					default: // bilawal bhutto Q6
 						Bilawal(ch, count);
-						Altaf(ch, count);
-						imran_khan(ch, count);
-						shahbaz(ch, count);
-						sheikh_rasheed(ch, count);
 						break;
 					}
 				default: // bilawal bhutto Q5
 					Bilawal(ch, count);
-					Altaf(ch, count);
-					imran_khan(ch, count);
-					shahbaz(ch, count);
-					sheikh_rasheed(ch, count);
 					break;
 				}
 			default: // bilawal bhutto Q4
 				Bilawal(ch, count);
-				Altaf(ch, count);
-				imran_khan(ch, count);
-				shahbaz(ch, count);
-				sheikh_rasheed(ch, count);
 				break;
 			}
 		default: // bilawal bhutto Q3
-			sheikh_rasheed(ch, count);
-			shahbaz(ch, count);
 			Bilawal(ch, count);
-			Altaf(ch, count);
-			imran_khan(ch, count);
-			Altaf(ch, count);
 			break;
 		}
 	default: // bilawal bhutto Q2
 		Bilawal(ch, count);
-		Altaf(ch, count);
-		imran_khan(ch, count);
-		shahbaz(ch, count);
-		sheikh_rasheed(ch, count);
+
 		break;
 	}
 }
@@ -1143,55 +1313,48 @@ void firdous(char ch, int count)
 										case 'd':
 											printf("\n\t\t\t\tYour character is firdous ashiq awan!\n");
 											printf("\n\t\t\tPolitics mujhe ati nhi \n\t\t\tBoxing meri jaati nhi\n");
-											PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\Firdos.wav"), NULL, SND_ASYNC);
+											PlaySound(TEXT("Firdos.wav"), NULL, SND_ASYNC);
 											system("pause");
 											exit(0);
 										}
 									default: // firdous ashiq Q10
 										maryam(ch, count);
-										Benazir(ch, count);
 										firdous(ch, count);
-										break;
+
 										break;
 									}
 
 								default: // firdous ashiq Q9
 									maryam(ch, count);
-									Benazir(ch, count);
 									firdous(ch, count);
 									break;
 								}
 
 							default: // firdous ashiq Q8
 								maryam(ch, count);
-								Benazir(ch, count);
 								firdous(ch, count);
 								break;
 							}
 
 						default: // firdous ashiq Q7
 							maryam(ch, count);
-							Benazir(ch, count);
 							firdous(ch, count);
 							break;
 						}
 
 					default: // firdous ashiq Q6
 						maryam(ch, count);
-						Benazir(ch, count);
 						firdous(ch, count);
 						break;
 					}
 				default: // firdous ashiq Q5
 					maryam(ch, count);
-					Benazir(ch, count);
 					firdous(ch, count);
 					break;
 				}
 
 			default: // firdous ashiq Q4
 				maryam(ch, count);
-				Benazir(ch, count);
 				firdous(ch, count);
 				break;
 			}
@@ -1209,12 +1372,10 @@ void firdous(char ch, int count)
 			case 'D':
 			case 'd':
 				maryam(ch, count);
-				Benazir(ch, count);
-				firdous(ch, count);
+
 			default:
 				Benazir(ch, count);
-				maryam(ch, count);
-				firdous(ch, count);
+
 				break;
 			}
 			break;
@@ -1223,7 +1384,6 @@ void firdous(char ch, int count)
 	default: // firdous ashiq Q2
 		maryam(ch, count);
 		Benazir(ch, count);
-		firdous(ch, count);
 		break;
 	}
 }
@@ -1284,6 +1444,7 @@ void imran_khan(char ch, int count)
 					case 'y':
 					case 'D':
 					case 'd':
+
 						printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q6
 						printf("\t\t\tDo you think ur character is loyal?\n");
 						printf("\t\t\t\t Option: ");
@@ -1295,6 +1456,8 @@ void imran_khan(char ch, int count)
 						case 'y':
 						case 'D':
 						case 'd':
+						case 'n':
+						case 'N':
 							printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q7
 							printf("\t\t\tkiya ap ghabra to nhi rahe?\n");
 							printf("\t\t\t\t Option: ");
@@ -1321,6 +1484,8 @@ void imran_khan(char ch, int count)
 								case 'y':
 								case 'D':
 								case 'd':
+								case 'n':
+								case 'N':
 									printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q9
 									printf("\t\t\tDoes your character started a charity project?\n");
 									printf("\t\t\t\t Option: ");
@@ -1391,7 +1556,9 @@ void imran_khan(char ch, int count)
 														case 'y':
 														case 'D':
 														case 'd':
-														
+														case 'n':
+														case 'N':
+
 															printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q15
 															printf("\t\t\tDid he fell from stage?\n");
 															printf("\t\t\t\t Option: ");
@@ -1420,128 +1587,75 @@ void imran_khan(char ch, int count)
 																case 'n':
 																	printf("\t\t\t\tYou are thinking about imran khan!\n");
 																	printf("\n\t\t\tHame to pf ne loota\n\t\t\tfit mai kahan dam tha\n\t\t\tGPA bhi wahan giri\n\t\t\tjahan AP mai number kam thay\n");
-																	PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\imran.wav"), NULL, SND_ASYNC);
+																	PlaySound(TEXT("imran.wav"), NULL, SND_ASYNC);
 																	system("pause");
 																	exit(0);
 																}
 															default: // imran khan Q16
-																Bilawal(ch, count);
-																Altaf(ch, count);
 																imran_khan(ch, count);
-																shahbaz(ch, count);
-																sheikh_rasheed(ch, count);
 																break;
 															}
 														default: // imran khan Q15
-															Bilawal(ch, count);
-															Altaf(ch, count);
 															imran_khan(ch, count);
-															shahbaz(ch, count);
-															sheikh_rasheed(ch, count);
 															break;
 														}
 													default: // imran khan Q14
-														Bilawal(ch, count);
-														Altaf(ch, count);
 														imran_khan(ch, count);
-														shahbaz(ch, count);
-														sheikh_rasheed(ch, count);
 														break;
 													}
 												default: // imran khan Q13
-													Bilawal(ch, count);
-													Altaf(ch, count);
 													imran_khan(ch, count);
-													shahbaz(ch, count);
-													sheikh_rasheed(ch, count);
 													break;
 												}
 											default: // imran khan Q12
-												Bilawal(ch, count);
-												Altaf(ch, count);
 												imran_khan(ch, count);
-												shahbaz(ch, count);
-												sheikh_rasheed(ch, count);
 												break;
 											}
 										default: // imran khan Q11
-											Bilawal(ch, count);
-											Altaf(ch, count);
 											imran_khan(ch, count);
-											shahbaz(ch, count);
-											sheikh_rasheed(ch, count);
 											break;
 										}
 									default: // imran khan Q10
-										Bilawal(ch, count);
-										Altaf(ch, count);
 										imran_khan(ch, count);
-										shahbaz(ch, count);
-										sheikh_rasheed(ch, count);
 										break;
 									}
 								default: // imran khan Q9
-									Bilawal(ch, count);
-									Altaf(ch, count);
 									imran_khan(ch, count);
-									shahbaz(ch, count);
-									sheikh_rasheed(ch, count);
 									break;
 								}
 							default: // imran khan Q8
-								Bilawal(ch, count);
-								Altaf(ch, count);
 								imran_khan(ch, count);
-								shahbaz(ch, count);
-								sheikh_rasheed(ch, count);
 								break;
 							}
 						default: // imran khan Q7
-							Bilawal(ch, count);
-							Altaf(ch, count);
 							imran_khan(ch, count);
-							shahbaz(ch, count);
-							sheikh_rasheed(ch, count);
 							break;
 						}
 					default: // imran khan Q6
-						Bilawal(ch, count);
-						Altaf(ch, count);
 						imran_khan(ch, count);
-						shahbaz(ch, count);
-						sheikh_rasheed(ch, count);
 						break;
 					}
 				default: // imran khan Q5
-					Bilawal(ch, count);
-					Altaf(ch, count);
-					imran_khan(ch, count);
-					shahbaz(ch, count);
 					sheikh_rasheed(ch, count);
+					shahbaz(ch, count);
+					imran_khan(ch, count);
 					break;
 				}
 			default: // imran khan Q4
 				shahbaz(ch, count);
-				Bilawal(ch, count);
-				Altaf(ch, count);
 				imran_khan(ch, count);
-				sheikh_rasheed(ch, count);
+
 				break;
 			}
 		default: // imran khan Q3
-			Bilawal(ch, count);
+
 			Altaf(ch, count);
-			imran_khan(ch, count);
-			shahbaz(ch, count);
 			sheikh_rasheed(ch, count);
 			break;
 		}
 	default: // imran khan Q2
 		Bilawal(ch, count);
-		Altaf(ch, count);
 		imran_khan(ch, count);
-		shahbaz(ch, count);
-		sheikh_rasheed(ch, count);
 		break;
 	}
 } // imran khan End
@@ -1736,120 +1850,67 @@ void shahbaz(char ch, int count)
 															case 'd':
 																printf("\n\t\t\tYour character is Shahbaz Sharif!\n");
 																printf("\n\t\t\t Mei Programming Prhne nhi aya \n\t\t\tlekin CS k lye Majboori hei\n");
-																PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\Shahbaz.wav"), NULL, SND_ASYNC);
+																PlaySound(TEXT("Shahbaz.wav"), NULL, SND_ASYNC);
 																system("pause");
 																exit(0);
 															}
 														default:
-															Bilawal(ch, count);
-															Altaf(ch, count);
-															imran_khan(ch, count);
 															shahbaz(ch, count);
-															sheikh_rasheed(ch, count);
 															break;
 														}
 													default: // Q14
-														Bilawal(ch, count);
-														Altaf(ch, count);
-														imran_khan(ch, count);
 														shahbaz(ch, count);
-														sheikh_rasheed(ch, count);
 														break;
 													}
 												default:
-													Bilawal(ch, count);
-													Altaf(ch, count);
-													imran_khan(ch, count);
 													shahbaz(ch, count);
-													sheikh_rasheed(ch, count);
 													break; // Q13
 												}
 											default: // Q12
-												Bilawal(ch, count);
-												Altaf(ch, count);
-												imran_khan(ch, count);
 												shahbaz(ch, count);
-												sheikh_rasheed(ch, count);
 												break;
 											}
 										default: // Q11
-											Bilawal(ch, count);
-											Altaf(ch, count);
-											imran_khan(ch, count);
 											shahbaz(ch, count);
-											sheikh_rasheed(ch, count);
 											break;
 										}
 									default: // Q10
-										Bilawal(ch, count);
-										Altaf(ch, count);
-										imran_khan(ch, count);
 										shahbaz(ch, count);
-										sheikh_rasheed(ch, count);
 										break;
 									}
 								default: // Q9
-									Bilawal(ch, count);
-									Altaf(ch, count);
-									imran_khan(ch, count);
 									shahbaz(ch, count);
-									sheikh_rasheed(ch, count);
 									break;
 								}
 							default: // Q08
-								Bilawal(ch, count);
-								Altaf(ch, count);
-								imran_khan(ch, count);
 								shahbaz(ch, count);
-								sheikh_rasheed(ch, count);
 								break;
 							}
 						default: // Q07
-							Bilawal(ch, count);
-							Altaf(ch, count);
-							imran_khan(ch, count);
 							shahbaz(ch, count);
-							sheikh_rasheed(ch, count);
 							break;
 						}
 					default: // Q06
-						Bilawal(ch, count);
-						Altaf(ch, count);
-						imran_khan(ch, count);
 						shahbaz(ch, count);
-						sheikh_rasheed(ch, count);
 						break;
 					}
 				default: // Q05
-					Bilawal(ch, count);
-					Altaf(ch, count);
-					imran_khan(ch, count);
 					shahbaz(ch, count);
-					sheikh_rasheed(ch, count);
 					break;
 				}
 			default: // Q04
-				Bilawal(ch, count);
-				Altaf(ch, count);
-				imran_khan(ch, count);
 				shahbaz(ch, count);
-				sheikh_rasheed(ch, count);
 				break;
 			}
 		default: // Q03
-			Bilawal(ch, count);
-			Altaf(ch, count);
+			sheikh_rasheed(ch, count);
 			imran_khan(ch, count);
 			shahbaz(ch, count);
-			sheikh_rasheed(ch, count);
+
 			break;
 		}
 	default: // Q02
-		Altaf(ch, count);
-		Bilawal(ch, count);
-		imran_khan(ch, count);
 		shahbaz(ch, count);
-		sheikh_rasheed(ch, count);
 		break;
 	}
 } // shahbaz End
@@ -1873,6 +1934,8 @@ void sheikh_rasheed(char ch, int count)
 		count++;
 		switch (ch)
 		{
+		case 'Y':
+		case 'y':
 		case 'N':
 		case 'n':
 		case 'D':
@@ -2000,106 +2063,76 @@ void sheikh_rasheed(char ch, int count)
 													case 'd':
 														printf("\n\t\t\t\tYou are thinking about sheikh rasheed\n");
 														printf("\n\t\t\tSheikhu Didnt choose thug life ,\n\t\t\t thug life choose him\n");
-														PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\Sheikh.wav"), NULL, SND_ASYNC);
+														PlaySound(TEXT("Sheikh.wav"), NULL, SND_ASYNC);
 														system("pause");
 														exit(0);
 													default:
 														break;
 													}
 												default: // sheikh rasheed Q13
-													Bilawal(ch, count);
-													Altaf(ch, count);
 													imran_khan(ch, count);
-													shahbaz(ch, count);
 													sheikh_rasheed(ch, count);
 													break;
 												}
 											default: // sheikh rasheed Q12
-												Bilawal(ch, count);
-												Altaf(ch, count);
 												imran_khan(ch, count);
-												shahbaz(ch, count);
 												sheikh_rasheed(ch, count);
 												break;
 											}
 										default: // sheikh rasheed Q11
-											Bilawal(ch, count);
-											Altaf(ch, count);
 											imran_khan(ch, count);
-											shahbaz(ch, count);
 											sheikh_rasheed(ch, count);
 											break;
 										}
 									default: // sheikh rasheed Q10
-										Bilawal(ch, count);
-										Altaf(ch, count);
 										imran_khan(ch, count);
-										shahbaz(ch, count);
 										sheikh_rasheed(ch, count);
 										break;
 									}
 								default: // sheikh rasheed Q9
-									Bilawal(ch, count);
-									Altaf(ch, count);
 									imran_khan(ch, count);
-									shahbaz(ch, count);
 									sheikh_rasheed(ch, count);
+
 									break;
 								}
 							default: // sheikh rasheed Q8
-								Bilawal(ch, count);
-								Altaf(ch, count);
-								imran_khan(ch, count);
-								shahbaz(ch, count);
 								sheikh_rasheed(ch, count);
+
 								break;
 							}
 						default: // sheikh rasheed Q7
-							Bilawal(ch, count);
-							Altaf(ch, count);
-							imran_khan(ch, count);
-							shahbaz(ch, count);
 							sheikh_rasheed(ch, count);
+							imran_khan(ch, count);
 							break;
 						}
 					default: // sheikh rasheed Q6
-						Bilawal(ch, count);
-						Altaf(ch, count);
 						imran_khan(ch, count);
-						shahbaz(ch, count);
-						sheikh_rasheed(ch, count);
 						break;
 					}
 				default: // sheikh rasheed Q5
 					imran_khan(ch, count);
-					Bilawal(ch, count);
-					Altaf(ch, count);
 					shahbaz(ch, count);
 					sheikh_rasheed(ch, count);
+
 					break;
 				}
 			default: // sheikh rasheed Q4
 				shahbaz(ch, count);
-				Bilawal(ch, count);
-				Altaf(ch, count);
 				imran_khan(ch, count);
+
 				sheikh_rasheed(ch, count);
 				break;
 			}
 		default: // sheikh rasheed Q3
 			shahbaz(ch, count);
 			imran_khan(ch, count);
-			Bilawal(ch, count);
-			Altaf(ch, count);
 			sheikh_rasheed(ch, count);
-			imran_khan(ch, count);
+
 			break;
 		}
 	default: // sheikh rasheed Q2
 		imran_khan(ch, count);
 		shahbaz(ch, count);
-		Bilawal(ch, count);
-		Altaf(ch, count);
 		sheikh_rasheed(ch, count);
 		break;
 	}
