@@ -197,7 +197,7 @@ void nawaz(char ch, int count)
 																case 'D':
 																case 'd':
 																	printf("\n\t\t\t\tYour character is the one and only nawaz shariff!\n");
-																	printf("\n\t\t\tna sadiq hu na Ameen hu \n\tme krapshan ki masheen hu");
+																	printf("\n\t\t\tna sadiq hu na Ameen hu \n\t\t\t  me krapshan ki masheen hu");
 																	PlaySound(TEXT("C:\\c++\\Projectc\\Guess-The-Personality\\nawaz.wav"), NULL, SND_ASYNC);
 																	system("pause");
 																	exit(0);
