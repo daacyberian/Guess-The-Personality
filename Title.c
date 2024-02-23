@@ -1,5 +1,5 @@
 void border() {
-    for(int i = 0 ; i<=110 ; i++){
+    for(int i = 0 ; i<=150 ; i++){
     	printf("~");
 	}
     printf("\n");
@@ -8,34 +8,34 @@ void border() {
 void Title() {
 	printf("\n");
     printf("\t\t\t\t");
-    printf("\t $$$$$\t"); // G
-    printf(" $     $"); // U
-    printf("  $$$$$$"); // E
-    printf("   $$$$$$"); // S
+    printf("\t    $$$$$    "); // G
+    printf("$     $"); // U
+    printf("   $$$$$$"); // E
+    printf("  $$$$$$"); // S
     printf("   $$$$$$\n"); // S
     printf("\t\t\t\t");
-    printf("\t$\t"); // G
-    printf(" $     $"); // U
-    printf("  $\t"); // E
-    printf("  $  "); // S
+    printf("\t   $    "); // G
+    printf("     $     $"); // U
+    printf("   $     "); // E
+    printf(" $  "); // S
     printf("      $ \n"); // S
     printf("\t\t\t\t");
-    printf("\t$   $$$\t"); // G
-    printf(" $     $"); // U
-    printf("  $$$$$$ "); // E
-    printf("  $$$$$$ "); // S
+    printf("\t   $   $$$   "); // G
+    printf("$     $"); // U
+    printf("   $$$$$$ "); // E
+    printf(" $$$$$$ "); // S
     printf("  $$$$$$ \n"); // S
     printf("\t\t\t\t");
-    printf("\t$     $\t"); // G
-    printf(" $     $"); // U
-    printf("  $\t"); // E
-    printf("         $ "); // S
+    printf("\t   $     $   "); // G
+    printf("$     $"); // U
+    printf("   $\t"); // E
+    printf("     $ "); // S
     printf("       $\n"); // S
     printf("\t\t\t\t");
-    printf("\t $$$$$\t"); // G
+    printf("\t    $$$$$   "); // G
     printf("  $ $ $"); // U
-    printf("   $$$$$$ "); // E
-    printf("  $$$$$$ "); // S
+    printf("    $$$$$$ "); // E
+    printf(" $$$$$$ "); // S
     printf("  $$$$$$ \n"); // S
     
     border();
@@ -120,4 +120,17 @@ void limitations()
     printf("\t\t\t\t\t\t\t      LIMITED PERSONALITIES\n");
     printf("\t\t\t\t\t\t\t\t1)Nawaz Sharif \n\t\t\t\t\t\t\t\t2)Shabaz Sharif\n\t\t\t\t\t\t\t\t3)Altaf Hussain\n\t\t\t\t\t\t\t\t4)Imran Khan\n\t\t\t\t\t\t\t\t5)Sheikh Rasheed\n\t\t\t\t\t\t\t\t6)Bilawal Bhutto\n\t\t\t\t\t\t\t\t7)Benazir Bhutto\n\t\t\t\t\t\t\t\t8)Maryam Nawaz\n\t\t\t\t\t\t\t\t9)Firdous Ashiq Awan\n");
 
+}
+
+
+void Start_the_Game()
+{
+	int count = 1;
+	char ch;
+	printf("\n\t Lets Start The Game? \n");
+	printf("\t Press 'Y' for YES \n");
+	printf("\t Press 'N' for NO \n");
+	printf("\t Option: ");
+
+	
 }
