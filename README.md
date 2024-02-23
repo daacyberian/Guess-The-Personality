@@ -5,10 +5,10 @@
 <p>This game is inspired by the game Akinator. In this game the program will provide questions to the user related to politicians... Our game guesses the famous politicians of "The Islamic Republic of Pakistan". he player must be matured enough to play the game and must not be offended&nbsp;in&nbsp;any&nbsp;way.<p/> 
 
 
-<h2>🔎 Preview</h2>
+<h2>🔎 Project Preview</h2>
 
 
-<img src="https://i.imgur.com/WwOLA3Y.jpg" alt="Image Description">
+<img src="https://imgur.com/K1keM7z.jpg" alt="Image Description">
 
 <h1 align="center" id="title">Disclaimer</h1>
 <p>The game is provided "as is" without any warranty or guarantee of accuracy, completeness, or fitness for a particular purpose...</p>
@@ -38,6 +38,21 @@ bash
   run-- ./GuessThePers.exe
 
 .
+<h2 align="center">Working </h2>
+<p>
+<h3><li>User-Defined Headers</li></h3>
+
+We used User-defined header files for containing declaration of functions, variables and other elements that can be reused across multiple source code files...</p>
+<h3><li>Nested Switch</li></h3>
+
+We used Nested Switch structure to connect our code with different personalities of the characters...
+</p>
+<h3><li>Loop</li></h3>
+
+Used loops to design our game borders....</p>
+<h3><li>Functions</li></h3>
+
+We defined the personalities of each character in functions and made it a header file so we can use it anywhere in our main function....</p>
 <h2>Group Contribution :</h2>
 
 <h3 align="center">Syed Dawood </h3>
