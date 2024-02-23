@@ -1,5 +1,5 @@
 void border() {
-    for(int i = 0 ; i<=140 ; i++){
+    for(int i = 0 ; i<=110 ; i++){
     	printf("~");
 	}
     printf("\n");
