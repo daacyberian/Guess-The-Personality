@@ -106,7 +106,7 @@ function App() {
         themeRef.current = new Audio('/sounds/akinator_theme (1).wav')
         themeRef.current.loop = true
       }
-      themeRef.current.play().catch(e => console.log('Theme play failed:', e))
+      themeRef.current.play().catch(() => {})
     } else if (gameState === 'result') {
       if (themeRef.current) {
         themeRef.current.pause()
@@ -117,7 +117,7 @@ function App() {
         const soundPath = soundMap[resultKey]
         if (soundPath) {
           resultRef.current = new Audio(soundPath)
-          resultRef.current.play().catch(e => console.log('Result sound play failed:', e))
+          resultRef.current.play().catch(() => {})
         }
       }
     }
@@ -181,10 +181,10 @@ function App() {
             <div className="question-number">Question {history.length + 1}</div>
             <h2 className="question-text">{currentQ.question}</h2>
             <div className="buttons">
-              <button className="btn yes" onClick={() => handleAnswer('yes')}>
+              <button type="button" className="btn yes" onClick={() => handleAnswer('yes')}>
                 Yes
               </button>
-              <button className="btn no" onClick={() => handleAnswer('no')}>
+              <button type="button" className="btn no" onClick={() => handleAnswer('no')}>
                 No
               </button>
             </div>
@@ -195,7 +195,7 @@ function App() {
           <div className="result-card">
             <h2 className="result-name">{result.name}</h2>
             <p className="result-quote">"{result.quote}"</p>
-            <button className="btn restart" onClick={restartGame}>
+            <button type="button" className="btn restart" onClick={restartGame}>
               Play Again
             </button>
           </div>
