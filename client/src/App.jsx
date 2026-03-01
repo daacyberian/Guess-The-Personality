@@ -169,7 +169,10 @@ function App() {
     <div className="app">
       <div className="game-container">
         <div className="header">
-          <h1 className="title">Guess The Personality</h1>
+          <div className="title-container">
+            <img src="https://uploads.mudspike.com/optimized/3X/8/3/8362fa17c2d69eb4c6f11eba355087a383462875_2_457x750.png" alt="Akinator" className="akinator-bg" />
+            <h1 className="title">Guess The Personality</h1>
+          </div>
           <p className="subtitle">Think of a famous personality...</p>
         </div>
 
