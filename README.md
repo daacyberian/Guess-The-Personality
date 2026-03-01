@@ -1,4 +1,4 @@
-# 🎯 Guess The Personality <img src="https://uploads.mudspike.com/optimized/3X/8/3/8362fa17c2d69eb4c6f11eba355087a383462875_2_457x750.png" width="30" /> - VIP Edition
+# Guess The Personality <img src="https://uploads.mudspike.com/optimized/3X/8/3/8362fa17c2d69eb4c6f11eba355087a383462875_2_457x750.png" width="30" /> - VIP Edition
 
 A VIP-styled web version of the famous guessing game inspired by Akinator. Guess famous personalities through yes/no questions!
 
