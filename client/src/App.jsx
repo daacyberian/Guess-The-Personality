@@ -173,7 +173,7 @@ function App() {
             <img src="https://uploads.mudspike.com/optimized/3X/8/3/8362fa17c2d69eb4c6f11eba355087a383462875_2_457x750.png" alt="Akinator" className="akinator-bg" />
             <h1 className="title">Guess The Personality</h1>
           </div>
-          <p className="subtitle">Think of a famous personality...</p>
+          <p className="subtitle">Think of a famous Pakistani Politician...</p>
         </div>
 
         {gameState === 'playing' && currentQ && (
