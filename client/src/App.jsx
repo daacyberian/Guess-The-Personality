@@ -97,21 +97,37 @@ function App() {
   const [gameState, setGameState] = useState('playing')
   const [result, setResult] = useState(null)
   const [resultKey, setResultKey] = useState(null)
-  const audioRef = useRef(null)
+  const themeRef = useRef(null)
+  const resultRef = useRef(null)
 
   useEffect(() => {
-    if (gameState === 'result' && resultKey) {
-      const soundPath = soundMap[resultKey]
-      if (soundPath) {
-        const audio = new Audio(soundPath)
-        audio.play().catch(e => console.log('Audio play failed:', e))
-        audioRef.current = audio
+    if (gameState === 'playing') {
+      if (!themeRef.current) {
+        themeRef.current = new Audio('/sounds/akinator_theme (1).wav')
+        themeRef.current.loop = true
+      }
+      themeRef.current.play().catch(e => console.log('Theme play failed:', e))
+    } else if (gameState === 'result') {
+      if (themeRef.current) {
+        themeRef.current.pause()
+        themeRef.current.currentTime = 0
+      }
+      
+      if (resultKey) {
+        const soundPath = soundMap[resultKey]
+        if (soundPath) {
+          resultRef.current = new Audio(soundPath)
+          resultRef.current.play().catch(e => console.log('Result sound play failed:', e))
+        }
       }
     }
+    
     return () => {
-      if (audioRef.current) {
-        audioRef.current.pause()
-        audioRef.current = null
+      if (themeRef.current) {
+        themeRef.current.pause()
+      }
+      if (resultRef.current) {
+        resultRef.current.pause()
       }
     }
   }, [gameState, resultKey])
@@ -132,9 +148,13 @@ function App() {
   }
 
   const restartGame = () => {
-    if (audioRef.current) {
-      audioRef.current.pause()
-      audioRef.current = null
+    if (resultRef.current) {
+      resultRef.current.pause()
+      resultRef.current = null
+    }
+    if (themeRef.current) {
+      themeRef.current.pause()
+      themeRef.current.currentTime = 0
     }
     setCurrentQuestion(1)
     setHistory([])
