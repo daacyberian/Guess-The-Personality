@@ -1,14 +1,17 @@
 # 🎯 Guess The Personality - VIP Edition
 
-A VIP-styled web version of the famous guessing game inspired by Akinator. Guess Pakistani politicians through yes/no questions!
+A VIP-styled web version of the famous guessing game inspired by Akinator. Guess famous personalities through yes/no questions!
 
 ![VIP Edition](https://img.shields.io/badge/VIP-Gold%20Edition-d4af37?style=for-the-badge)
+
+## ⚠️ Fun Purpose Only
+
+> **Note:** This game is created for entertainment purposes only. It is not intended to offend, hate, or promote any political ideology. Please take it in the spirit of fun!
 
 ## ✨ Features
 
 - 🎮 **Interactive Gameplay** - Answer yes/no questions to guess the personality
 - 👑 **VIP Dark Theme** - Premium gold and dark theme with smooth animations
-- 🏏 **9 Pakistani Personalities** - Imran Khan, Nawaz Sharif, Maryam Nawaz, Shahbaz Sharif, Bilawal Bhutto, Altaf Hussain, Firdous Awan, Benazir Bhutto, Sheikh Rasheed
 - 📱 **Responsive Design** - Works on desktop and mobile
 - ⚡ **Fast & Smooth** - Built with React + Vite
 
@@ -40,7 +43,7 @@ npm run dev
 
 ## 🎯 How to Play
 
-1. Think of a Pakistani politician
+1. Think of a famous personality
 2. Answer Yes or No to the questions
 3. The game will guess who you're thinking of!
 
@@ -54,8 +57,6 @@ Guess-The-Personality/
 │   │   ├── App.css        # VIP styling
 │   │   └── index.css      # Global styles
 │   └── index.html
-├── GuessThePers.c         # Original C game
-├── Personality.c         # Personality definitions
 └── README.md
 ```
 
